@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import org.testng.internal.thread.ThreadTimeoutException;
 
 /**
- *
+ *Test class.
  */
 public class SampleTestNgTest {
 

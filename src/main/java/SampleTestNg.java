@@ -3,8 +3,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * some package info.
- *
+ * Sample class.
  */
 public final class SampleTestNg {
 
