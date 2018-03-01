@@ -1,0 +1,29 @@
+group 'com.globallogic.ivashyn'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'checkstyle'
+apply plugin: 'findbugs'
+apply plugin: 'pmd'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+javadoc {
+    source = sourceSets.main.allJava
+    classpath = configurations.compile
+}
+
+test {
+    useTestNG {
+
+    }
+}
+
+dependencies {
+//    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'org.testng', name: 'testng', version: '6.9.10'
+}
